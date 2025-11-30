@@ -21,21 +21,21 @@ python main.py <source> [destination] [--benchmark] [-x] [--level LEVEL]
 
 ### Архивация файла:
 ```bash
-python main.py text.txt --benchmark
+python3 main.py text.txt --benchmark
 ```
 #### Результат:
 ![alt text](pictures/pic1.png)
 
 ### Распаковка файла:
 ```bash
-python main.py text.txt.zst --benchmark
+python3 main.py text.txt.zst --benchmark
 ```
 #### Результат:
 ![alt text](pictures/pic2.png)
 
 ### Архивация директории:
 ```bash
-python main.py my_folder --benchmark
+python3 main.py my_folder --benchmark
 ```
 
 #### Результат:
@@ -43,7 +43,7 @@ python main.py my_folder --benchmark
 
 ### Распаковка директории:
 ```bash
-python main.py my_folder.tar.zst --benchmark
+python3 main.py my_folder.tar.zst --benchmark
 ```
 
 #### Результат:
