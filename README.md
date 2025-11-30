@@ -24,14 +24,14 @@ python main.py <source> [destination] [--benchmark] [-x] [--level LEVEL]
 python main.py text.txt --benchmark
 ```
 #### Результат:
-![alt text](pictures/image.png)
+![alt text](pictures/pic1.png)
 
 ### Распаковка файла:
 ```bash
 python main.py text.txt.zst --benchmark
 ```
 #### Результат:
-![alt text](pictures/image2.png)
+![alt text](pictures/pic2.png)
 
 ### Архивация директории:
 ```bash
@@ -39,7 +39,7 @@ python main.py my_folder --benchmark
 ```
 
 #### Результат:
-![alt text](pictures/image3.png)
+![alt text](pictures/pic3.png)
 
 ### Распаковка директории:
 ```bash
@@ -47,7 +47,7 @@ python main.py my_folder.tar.zst --benchmark
 ```
 
 #### Результат:
-![alt text](pictures/image4.png)
+![alt text](pictures/pic4.png)
 
 ## Структура проекта:
 
